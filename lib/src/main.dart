@@ -153,6 +153,7 @@ class _TextFieldTagsState extends State<TextFieldTags> {
       autocorrect: false,
       cursorColor: widget.textFieldStyler.cursorColor,
       style: widget.textFieldStyler.textStyle,
+      textAlignVertical: TextAlignVertical.center,
       decoration: InputDecoration(
         icon: widget.textFieldStyler.icon,
         contentPadding: widget.textFieldStyler.contentPadding,
